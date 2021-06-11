@@ -1,0 +1,28 @@
+/*задает элемент к Status*/
+.table tbody td .active,
+.table tbody td .waiting {
+    background-color: #B9F6CA;
+    color: #388E3C;
+    font-weight: 600;
+    padding: 1px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem
+}
+
+.table tbody td .waiting {
+    background-color: #FFECB3;
+    color: #FFA000
+}
+
+.table tbody td .waiting .circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFA000
+}
+
+.table tbody td .active .check,
+.table tbody td .waiting .check {
+    color: #388E3C
+}
+

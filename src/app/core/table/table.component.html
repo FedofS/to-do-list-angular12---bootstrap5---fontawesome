@@ -1,0 +1,98 @@
+<p>table works!</p>
+<fa-icon [icon]="faCoffee"></fa-icon>
+<fa-icon [icon]="faTimes"></fa-icon>
+<fa-icon [icon]="faTrash"></fa-icon>
+<fa-icon [icon]="faCheck"></fa-icon>
+
+<div class="">
+  <table class="table table-bordered border-primary">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Title</th>
+        <th scope="col">Author</th>
+        <th scope="col">Year</th>
+        <th scope="col">Pages</th>
+        <th scope="col">Description</th>
+        <th scope="col">Programming language</th>
+        <th scope="col">Language</th>
+        <th scope="col">Status</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Head First Kotlin</td>
+        <td>Dawn Griffiths, David Griffiths</td>
+        <td>2019</td>
+        <td>482</td>
+        <td>Head First Kotlin is a complete introduction to coding in Kotlin.</td>
+        <td>Kotlin</td>
+        <td>English</td>
+        <td>
+          <div class="d-inline-flex align-items-center active">
+            <div class="check"><fa-icon [icon]="faCheck"></fa-icon></div>
+            <div class="ps-2">Active</div>
+          </div>
+        </td>
+        <td>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="border-0 btn btn-transition btn-outline-danger me-md-2" type="button">
+              <fa-icon [icon]="faTrash"></fa-icon>
+            </button>
+            <button class="border-0 btn btn-transition btn-primary btn-sm" type="button">Edit</button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Head First Kotlin</td>
+        <td>Dawn Griffiths, David Griffiths</td>
+        <td>2019</td>
+        <td>482</td>
+        <td>Head First Kotlin is a complete introduction to coding in Kotlin.</td>
+        <td>Kotlin</td>
+        <td>English</td>
+        <td>
+          <div class="d-inline-flex align-items-center waiting">
+            <div class="circle"></div>
+            <div class="ps-2">Waiting for Reassignment</div>
+          </div>
+        </td>
+        <td>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="border-0 btn btn-transition btn-outline-danger me-md-2" type="button">
+              <fa-icon [icon]="faTrash"></fa-icon>
+            </button>
+            <button class="border-0 btn btn-transition btn-primary btn-sm" type="button">Edit</button>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Head First Kotlin</td>
+        <td>Dawn Griffiths, David Griffiths</td>
+        <td>2019</td>
+        <td>482</td>
+        <td>Head First Kotlin is a complete introduction to coding in Kotlin.</td>
+        <td>Kotlin</td>
+        <td>English</td>
+        <td>
+          <div class="d-inline-flex align-items-center waiting">
+            <div class="circle"></div>
+            <div class="ps-2">Waiting for Reassignment</div>
+          </div>
+        </td>
+        <td>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button class="border-0 btn btn-transition btn-outline-danger me-md-2" type="button">
+              <fa-icon [icon]="faTrash"></fa-icon>
+            </button>
+            <button class="border-0 btn btn-transition btn-primary btn-sm" type="button">Edit</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
